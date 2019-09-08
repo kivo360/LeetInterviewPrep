@@ -48,3 +48,12 @@ To read this and get better, I'd recommend you do the following things:
    1. **"I'm going to start with some planning"** - Shows how much you value plans.
 7. Dive deep into actual code.
 8. Pray that it was the solution.
+
+
+
+## Problems:
+Now we're going to list the problems we've solved and are explaining. Most of these problems will be medium level problems, as they're reasonable to solve in the allocated time, yet should force you to stretch your skills in the mean time.
+
+
+1. [Task Interval](/task_interval)
+2. [Single Number II](/single_number_ii)
