@@ -43,6 +43,8 @@ To read this and get better, I'd recommend you do the following things:
 3. **"I'm thinking the input to the question will be ... and the output would be ..."** - This allows you to pinpoint what the I/O of the application would be.
 4. **"Would you mind if I talk during exploration of finding a solution?"** - This gets permission to talk through the interview. It's very useful when you don't know the answer and you want to explain that while you don't have it, that you'll be searching through a solutions space.
 5. Start by explaining a solution once you think you've found it.
+   1. **"I'm thinking the solution to the problem will be ... . Is that solution okay?"** - This forces the interviewer to think about the problem themselves.
 6. Start off with some pseudo-code. 
+   1. **"I'm going to start with some planning"** - Shows how much you value plans.
 7. Dive deep into actual code.
 8. Pray that it was the solution.
