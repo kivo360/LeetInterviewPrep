@@ -32,7 +32,8 @@ To read this and get better, I'd recommend you do the following things:
 
 
 
-### What You Should Get Used To Asking
-1. I'd love to follow this question to completion, though I need to get a little bit of information from you. 
-   * "What I first want to do is understand what the question is asking. My assumption is ... Is that correct?" - This will show that you're thinking about the question, even though you may not know what it means.
-   * 
+### **THE INTERVIEW CODE** - What You Should Get Used To *Asking* and *Saying*
+1. **"I'd love to follow this question to completion, though I need to get a little bit of information from you regarding the problem."**
+2. **"What I first want to do is understand what the question is asking. My assumption is ... Is that correct?"** - This will show that you're thinking about the question, even though you may not know what it means.
+3. **"I'm thinking the input to the question will be ... and the output would be ..."** - This allows you to pinpoint what the I/O of the application would be.
+3. **"Would you mind if I talk during exploration of finding a solution?"** - This gets permission to talk through the interview. It's very useful when you don't know the answer and you want to explain that while you don't have it, that you'll be searching through a solutions space.
