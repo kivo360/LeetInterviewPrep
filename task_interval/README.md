@@ -43,8 +43,9 @@ I'm making the assumption that explaining the question to your grandma will aid 
 
 ## TLDR Solution.
 * We sort the tasks from most occuring to least.
-  * We do this, because logic goes that you'll need these to fill in the gap immediately with items we know we'll see again.
-* 
+  * We do this, because the logic goes that you'll need these to fill in the gap immediately with items we know we'll see again.
+  * Restating the idea: If we know we're gonna see a lot of a certain kind of data, and we know we have a wait time between running a task multiple times, why not rerun the most frequent tasks to speed through the solutions.
+* To get the most seen solution we need a heap to sort the most frequent solution, and
 
 ## Code - Python
 
@@ -73,12 +74,11 @@ class Solution:
         # 1. We process the most important tasks often
         #   - That's because we want to process everything quickly, and processing it quickly means processing the most frequent tasks immediately after the cooldown time is over is necessary.
         # 2. Determine my interval
-        #   - I want to be able to determine what step I'm at
+        #   - I want to be able to determine what step I'm  until I'm at the end of the solution space.
         # 3. Create a dict of counts since I last processed my task
         
 
-
-
+        
         # Task map to store if we've seen the item before
         task_count = Counter(tasks)
         current_time = 0
