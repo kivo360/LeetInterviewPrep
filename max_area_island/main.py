@@ -1,16 +1,17 @@
+from typing import List
 class Solution(object):
-    def maxAreaOfIsland(self, grid):
+    def maxAreaOfIsland(self, grid: List[List[int]]):
         """ 
             Grid here is 2d array (matrix)
             ---
-            This is a BFS problem.
+            This is a BFS problem. Though actually it looks kind of BFS.
         """
         # We label our seen items out of area column to ensure we don't redo it.
         seen = set() # Labelling the places we've seen.
         # Iterates through all ajacent cells then reports when it's seen it
-        # |---|---|---|
-        # |---|X|---(Seen Not Going)|
-        # |---|---|---|
+        # |---|---(Not Seen, Digging Further)|---|
+        # |---(Not Seen, Digging Further)|X|---(Seen, Not Digging Further)|
+        # |---|---(Seen, Not Digging Further)|---|
 
         # This is the implementation of the BFS
         def area(r, c):
@@ -26,7 +27,8 @@ class Solution(object):
             # 1 row down = r + 1
             # 1 row up = r - 1
             # 1 column left = c + 1
-            # 1 column right = c - 1 
+            # 1 column right = c - 1
+            # This also sets the index +1 if the current location isn't 0. Good for default.
             return (1 + area(r+1, c) + area(r-1, c) +
                     area(r, c-1) + area(r, c+1))
         # This finds the maximum area
